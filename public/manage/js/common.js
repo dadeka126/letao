@@ -15,7 +15,7 @@ $(document).ajaxStop(function () {
   //完成进度条
   setTimeout(function () {
     NProgress.done();
-  }, 500);
+  }, 10000);
 });
 
 
