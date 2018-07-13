@@ -83,7 +83,11 @@ body.move{
 /* ==================主体========================= */
 .main{
     height: 100%;
-    width: 100%;
+	width: 100%;
+	
+}
+.main .lt_content{
+	padding: 0 20px;
 }
 .main .header{
     height: 50px;
@@ -100,4 +104,9 @@ body.move{
 #charts_right{
 	width: 45%;
 	height: 400px;
+}
+.table.table-bordered th,
+.table.table-bordered td{
+	vertical-align: middle;
+	text-align: center;
 }
