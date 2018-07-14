@@ -11,7 +11,7 @@ $(function () {
         // 停止进度条
         setTimeout(function () {
             NProgress.done();
-        }, 1000)
+        }, 500)
 
     });
 
