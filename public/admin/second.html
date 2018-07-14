@@ -150,13 +150,15 @@
                             <input type="text" class="form-control" name="brandName" placeholder="请输入二级分类的名称">
                         </div>
                         <div class="form-group">
+                            <!-- 将label与file表单绑定 -->
                             <label for="fileuploald" class="btn btn-default">上传图片</label>
                             <input type="file" name="pic1" id="fileuploald" data-url="/category/addSecondCategoryPic" class="btn btn-default" style="display: none;">
                         </div>
                         <div class="form-group">
                             <div class="img-box">
-                                <img src="./images/none.png" alt="" style="width: 100px;height: 100px;">
+                                <img src="./images/none.png" alt="" width="100" height="100">
                             </div>
+                            <!-- 图片地址隐藏域 -->
                             <input type="hidden" name="brandLogo">
                         </div>
                         <div class="modal-footer">

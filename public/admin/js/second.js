@@ -29,7 +29,7 @@ $(function () {
         // 3.2 获取到id,赋值给隐藏域,传递给后台
         var id = $(this).data('id');
         $("[name='categoryId']").val(id);
-        // 3.3 -5 手动校验a的状态
+        // 3.3 -5 手动校验a里id隐藏域的状态通过
         $('form').data('bootstrapValidator').updateStatus('categoryId','VALID');
     });
     // 4 上传图片功能
@@ -40,7 +40,7 @@ $(function () {
             $('.img-box img').attr('src',data.result.picAddr);
             // 4.2 发送图片地址,赋值给隐藏域,传递给后台
             $("[name='brandLogo']").val(data.result.picAddr);
-            // 4.3 -5 手动校验图片
+            // 4.3 -5 手动校验图片通过
             $('form').data('bootstrapValidator').updateStatus('brandLogo','VALID');
         }
     });
